@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="683.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="latihanjavafx.ControllerFXMLKalkulatorProgrammer">
+   <children>
+      <Label alignment="CENTER" layoutX="-6.0" prefHeight="81.0" prefWidth="691.0" style="-fx-background-color: orange;" text="Kalkulator Programmer" textAlignment="CENTER" textFill="#5d3e8c">
+         <font>
+            <Font name="LifeCraftRegular" size="33.0" />
+         </font>
+         <effect>
+            <InnerShadow color="#e10202" />
+         </effect>
+      </Label>
+      <Button fx:id="button1" layoutX="308.0" layoutY="261.0" mnemonicParsing="false" onAction="#satu" prefHeight="53.0" prefWidth="63.0" text="1">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="button2" layoutX="391.0" layoutY="261.0" mnemonicParsing="false" onAction="#dua" prefHeight="53.0" prefWidth="63.0" text="2">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="button3" layoutX="470.0" layoutY="261.0" mnemonicParsing="false" onAction="#tiga" prefHeight="53.0" prefWidth="63.0" text="3">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="button4" layoutX="308.0" layoutY="328.0" mnemonicParsing="false" onAction="#empat" prefHeight="53.0" prefWidth="63.0" text="4">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="button5" layoutX="391.0" layoutY="328.0" mnemonicParsing="false" onAction="#lima" prefHeight="53.0" prefWidth="63.0" text="5">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="button6" layoutX="470.0" layoutY="328.0" mnemonicParsing="false" onAction="#enam" prefHeight="53.0" prefWidth="63.0" text="6">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="button7" layoutX="308.0" layoutY="394.0" mnemonicParsing="false" onAction="#tujuh" prefHeight="53.0" prefWidth="63.0" text="7">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="button8" layoutX="391.0" layoutY="394.0" mnemonicParsing="false" onAction="#delapan" prefHeight="53.0" prefWidth="63.0" text="8">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="button9" layoutX="470.0" layoutY="394.0" mnemonicParsing="false" onAction="#sembilan" prefHeight="53.0" prefWidth="63.0" text="9">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="button0" layoutX="391.0" layoutY="463.0" mnemonicParsing="false" onAction="#nol" prefHeight="53.0" prefWidth="63.0" text="0">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="buttonplus" layoutX="555.0" layoutY="261.0" mnemonicParsing="false" onAction="#plus" prefHeight="53.0" prefWidth="63.0" text="+">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <TextField fx:id="decfill" layoutX="230.0" layoutY="163.0" prefHeight="53.0" prefWidth="403.0" />
+      <Button fx:id="buttonmin" layoutX="555.0" layoutY="328.0" mnemonicParsing="false" onAction="#min" prefHeight="53.0" prefWidth="63.0" text="-">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="buttonbagi" layoutX="555.0" layoutY="394.0" mnemonicParsing="false" onAction="#bagi" prefHeight="53.0" prefWidth="63.0" text=":">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="buttonkali" layoutX="555.0" layoutY="463.0" mnemonicParsing="false" onAction="#kali" prefHeight="53.0" prefWidth="63.0" text="x">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="buttonreset" layoutX="230.0" layoutY="260.0" mnemonicParsing="false" onAction="#reset" prefHeight="120.0" prefWidth="63.0" style="-fx-background-color: red;" text="CE">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="buttonsamadengan" layoutX="470.0" layoutY="463.0" mnemonicParsing="false" onAction="#samadengan" prefHeight="53.0" prefWidth="63.0" style="-fx-background-color: silver;" text="=">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <TextField fx:id="binfill" layoutX="105.0" layoutY="170.0" prefHeight="40.0" prefWidth="108.0" />
+      <Label layoutX="27.0" layoutY="164.0" prefHeight="53.0" prefWidth="63.0" text="BINARY" />
+      <TextField fx:id="octfill" layoutX="105.0" layoutY="235.0" prefHeight="40.0" prefWidth="108.0" />
+      <Label layoutX="18.0" layoutY="229.0" prefHeight="53.0" prefWidth="63.0" text="OCTAL" />
+      <Label layoutX="8.0" layoutY="288.0" prefHeight="53.0" prefWidth="82.0" text="HEXADECIMAL" />
+      <TextField fx:id="hexfill" layoutX="105.0" layoutY="294.0" prefHeight="40.0" prefWidth="108.0" />
+      <Button fx:id="buttonpersen" layoutX="230.0" layoutY="394.0" mnemonicParsing="false" onAction="#persen" prefHeight="53.0" prefWidth="63.0" text="\%">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+      <Button fx:id="buttonmodulus" layoutX="230.0" layoutY="463.0" mnemonicParsing="false" onAction="#modulus" prefHeight="53.0" prefWidth="142.0" style="-fx-background-color: GOLD;" text="MODULUS">
+         <font>
+            <Font name="Consolas" size="20.0" />
+         </font>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
