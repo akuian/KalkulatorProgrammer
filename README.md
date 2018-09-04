@@ -2,4 +2,4 @@
 
 Hasil Compile
 
-![alt text](https://github.com/akuian/KalkulatorProgramer/blob/master/calculator.JPG)
+![alt text](https://github.com/akuian/KalkulatorProgrammer/blob/master/calculator.JPG)
